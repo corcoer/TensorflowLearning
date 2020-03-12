@@ -1,0 +1,26 @@
+http://c.biancheng.net/view/1881.html
+method 1: pip install
+https://zhuanlan.zhihu.com/p/34730661
+method 2: conda install
+https://zhuanlan.zhihu.com/p/46579831
+
+Install(Already installed the Anaconda3):
+1. check the python version: 
+    import sys
+    print(sys.version)
+2. create the tensorflow environment
+    conda create -n tensorflow python=3.7.3
+3. active tensorflow
+    conda activate tensorflow
+4. pip uninstall tensorflow
+5. conda install tensorflow
+
+Setup
+1. update Anaconda
+   launch Anaconda Navigator
+2. applications -> tensorflow
+3. Install Spyder(tensorflow)
+
+Test
+import tensorflow as tf
+print(tf.__version__)
